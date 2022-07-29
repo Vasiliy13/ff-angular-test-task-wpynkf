@@ -1,0 +1,16 @@
+<div [formGroup]="form">
+
+    <div style="margin: 0.4em">
+        Current city
+        <input type="text" readonly formControlName="city">
+    </div>
+
+    <div style="margin: 0.4em">
+        Time
+        <input type="text" readonly formControlName="time" style="width: 300px">
+    </div>
+
+    <div style="margin: 0.4em">
+        <button (click)="switchCitiesClick()">Switch cities</button>
+    </div>
+</div>
